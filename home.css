@@ -1,0 +1,77 @@
+
+
+body{
+    background-image: url(https://st4.depositphotos.com/1400069/25523/i/450/depositphotos_255235398-stock-photo-pink-blurred-gradient-background-spring.jpg);
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    font-family: cursive;
+    
+}
+img{
+    border: 3px solid rgb(237, 161, 228);
+    height: 30vh;
+    width: 35vh;
+    border-radius: 100% 100% 100% 100% ;
+   
+}
+.img{
+    margin: auto;
+    background-color: rgba(216, 243, 243, 0.9);
+    height: auto;
+    width: 70%;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.img:hover{
+   transform: scale(1.01);
+}
+h1 {
+    font-size: 30px;
+   
+    
+}
+h3{
+    font-size: 30px;
+}
+h2{
+    font-size: 30px;
+}
+h4{
+    font-size: 25px;
+}
+p{
+    font-size: 25px;
+    padding: 20px;
+    font-family: 'roboto';
+}
+.skill button{
+    padding: 15px;
+    font-size: 20px;
+}
+
+ button{
+    list-style: none; 
+    display: inline-block;
+   
+    margin: 6px;
+    padding: 6px; 
+ }
+ button {
+    
+    border-radius: 5px;
+    margin: 5%;
+    padding: 5px;
+   background-color: rgb(132, 197, 165);
+ }
+ a{
+    text-decoration: none;
+ }
+button:hover{
+    background-color:rgba(255, 192, 203, 0.822) ;
+    transform: scale(1.01);
+}
+
+
+
+
