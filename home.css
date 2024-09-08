@@ -6,13 +6,16 @@ body{
     text-align: center;
     display: flex;
     font-family: cursive;
+    flex-direction: column;
     
 }
 img{
     border: 3px solid rgb(237, 161, 228);
     height: 30vh;
-    width: 35vh;
-    border-radius: 100% 100% 100% 100% ;
+    width: 30vh;
+    border-radius: 100%;
+    max-width: 100%;
+    height: auto;
    
 }
 .img{
@@ -26,20 +29,12 @@ img{
 .img:hover{
    transform: scale(1.01);
 }
-h1 {
-    font-size: 30px;
-   
-    
+
+
+h1, h2, h3, h4{
+    font-size:30px;
 }
-h3{
-    font-size: 30px;
-}
-h2{
-    font-size: 30px;
-}
-h4{
-    font-size: 25px;
-}
+
 p{
     font-size: 25px;
     padding: 20px;
@@ -53,19 +48,14 @@ p{
  button{
     list-style: none; 
     display: inline-block;
-   
     margin: 6px;
     padding: 6px; 
- }
- button {
-    
     border-radius: 5px;
-    margin: 5%;
-    padding: 5px;
    background-color: rgb(132, 197, 165);
  }
  a{
     text-decoration: none;
+    word-wrap: break-word;
  }
 button:hover{
     background-color:rgba(255, 192, 203, 0.822) ;
@@ -74,4 +64,22 @@ button:hover{
 
 
 
+@media (max-width: 480px) {
+    .img{
+        width:90%;
+    }
 
+img{
+    width: 50%;
+    height: auto;
+}
+
+p{
+    font-size: 20px;
+}
+
+a{
+    font-size: 16px;
+    word-wrap: break-word;
+}
+}
